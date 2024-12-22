@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task_1</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap"
+        rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap"
+        rel="stylesheet">
+  <link rel="icon" href="img/icon.svg" sizes="any">
+
+</head>
+<body>
+
+<div class="container">
+
+  <!--  Task 1-->
+  <section id="task1" class="task">
+    <h2>Task 1</h2>
+    <div id="black_square"></div>
+    <div class="buttons">
+      <button id="hide_button1" class="hide_button">Hide square without saving space</button>
+      <button id="hide_button2" class="hide_button">Remove square</button>
+      <button id="hide_button3" class="hide_button">Hide square with saving space</button>
+    </div>
+  </section>
+
+  <!--  Task 2-->
+  <section id="task2" class="task">
+    <h2>Task 2</h2>
+    <button id="hide-show_button" class="hide_button">Hide or show square</button>
+  </section>
+
+  <!--  Task 3-->
+  <section id="task3" class="task">
+    <h2>Task 3</h2>
+    <div class="squares">
+      <div id="black_square1" class="square"></div>
+      <div id="black_square2" class="square"></div>
+      <div id="black_square3" class="square"></div>
+      <div id="black_square4" class="square"></div>
+      <div id="black_square5" class="square"></div>
+    </div>
+    <div>
+      <button id="hide-show" class="hide_button">Hide or show squares</button>
+    </div>
+
+  </section>
+
+  <!--  Task 4-->
+  <section id="task4" class="task">
+    <h2>Task 4</h2>
+    <label for="query_selector">Input selector:</label><br>
+    <input type="text" id="query_selector"/>
+    <button id="hide-show_button2">Hide-Show</button>
+  </section>
+
+  <!--  Task 5-->
+  <section id="task5" class="task">
+    <h2>Task 5</h2>
+    <div id="yellow_square"></div>
+  </section>
+
+  <!--  Task 6-->
+  <section id="task6" class="task">
+    <h2>Task 6</h2>
+    <div id="red_square" class="red_square hidden"></div>
+    <button id="hover_button">Hover over me</button>
+  </section>
+
+  <!--  Task 7-->
+  <section id="task7" class="task">
+    <h2>Task 7</h2>
+    <div id="green_square" class="green_square hidden"></div>
+    <label for="text_input">Input text:</label>
+    <input type="text" id="text_input"/>
+  </section>
+
+  <!--  Task 8-->
+  <section id="task8" class="task">
+    <h2>Task 8</h2>
+    <label for="image_url">Input url:</label>
+    <input type="url" id="image_url" name="image_url" value="data:image/jpeg;base64,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"/>
+    <button id="upload_image_button">Upload image</button>
+    <div id="place_for_image"></div>
+  </section>
+
+  <!--  Task 9-->
+  <section id="task9" class="task">
+    <h2>Task 9</h2>
+    <label for="pictures_links">Input url:</label>
+    <textarea id="pictures_links" name="pictures_links"></textarea>
+    <button id="upload_images_button">Upload images</button>
+    <div id="place_for_images"></div>
+  </section>
+
+  <!--  Task 10_11_12-->
+  <section id="task10_11_12" class="task">
+    <h2>Task 10_11_12</h2>
+    <div id="cursor_coordinates_lang_geolocation">
+      <textarea id="XY_lang_geo" rows="3" readonly></textarea>
+    </div>
+  </section>
+
+  <!--  Task 13-->
+  <section id="task13" class="task">
+    <h2>Task 13</h2>
+    <div id="blocks">
+      <div id="block1" class="block" contenteditable="true">
+      </div>
+      <div id="block2" class="block" contenteditable="true">
+      </div>
+      <div id="block3" class="block" contenteditable="true">
+      </div>
+    </div>
+  </section>
+
+  <!--  Task 14-->
+  <section id="task14" class="task">
+    <h2>Task 14</h2>
+    <button onclick="scrollWin()" id="button_scroll_up">Scroll up</button>
+  </section>
+
+  <!--  Task 15-->
+  <section id="task15" class="task">
+    <h2>Task 15</h2>
+    <div id="block_first">
+      <div id="block_second">
+      </div>
+    </div>
+  </section>
+
+  <!--  Task 16-->
+  <section id="task16" class="task">
+    <h2>Task 16</h2>
+    <button id="no_scroll">No skroll</button>
+    <div id="grey_square"></div>
+  </section>
+
+  <!--  Task 17-->
+  <section id="task17" class="task">
+    <h2>Task 17</h2>
+    <form><input type="submit" id="button_go" value="GO"></form>
+  </section>
+
+  <!--  Task 18-->
+  <section id="task18" class="task">
+    <h2>Task 18</h2>
+    <div id="file_selection">
+      <input type="file" id="my_file" multiple/>
+      <button id="select_file">Select or drag a file</button>
+    </div>
+
+  </section>
+
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
