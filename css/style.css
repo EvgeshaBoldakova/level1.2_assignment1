@@ -1,1 +1,261 @@
-
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.task1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.square {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+#black_square {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+.hide_button {
+  margin: 20px 0 0 0;
+  width: 300px;
+  height: 50px;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.hide_button:hover {
+  background-color: #4ed6ff;
+}
+.hidden {
+  visibility: hidden;
+}
+.task {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.squares {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+label {
+  font-size: 30px;
+}
+#hide-show_button2 {
+  margin: 20px;
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+  background-color: #148317;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+#hide-show_button2:hover {
+  background-color: #bdd870;
+}
+#query_selector {
+  font-size: 20px;
+}
+#yellow_square {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  cursor: pointer;
+}
+#red_square {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+#hover_button {
+  margin: 20px 0 0 0;
+  width: 300px;
+  height: 50px;
+  background-color: red;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#hover_button:hover {
+  background-color: #ff4ed6;
+}
+#green_square {
+  width: 50px;
+  height: 20px;
+  background-color: #148317;
+}
+#text_input{
+  font-size: 20px;
+}
+#image_url {
+  font-size: 20px;
+}
+#upload_image_button {
+  margin: 20px 0 0 0;
+  width: 200px;
+  height: 50px;
+  background-color: #5454c6;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#upload_image_button:hover {
+  background-color: #8e8ebf;
+}
+#place_for_image img {
+  width: auto;
+  height: auto;
+  margin-top: 20px;
+  border: 1px solid #0c0c0c;
+}
+#pictures_links {
+  font-size: 20px;
+}
+#upload_images_button {
+  margin: 20px 0 0 0;
+  width: 200px;
+  height: 50px;
+  background-color: #5454c6;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#upload_images_button:hover {
+  background-color: #8e8ebf;
+}
+#place_for_images {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+#place_for_images img {
+  width: auto;
+  height: auto;
+  margin-top: 20px;
+}
+#XY_lang_geo {
+  width: 220px;
+  text-align: left;
+}
+#task10_11_12 h2 {
+  position: fixed;
+  top: 40px;
+  right: 40px;
+}
+#cursor_coordinates_lang_geolocation {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+#blocks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.block {
+  width: 350px;
+  height: 100px;
+  border: 5px solid #ff4ed6;
+  margin: 0 100px 0 100px;
+  font-size: 22px;
+  text-align: center;
+}
+#task14 {
+  position: fixed;
+  bottom: 50px;
+  right: 40px;
+}
+#button_scroll_up {
+  width: 200px;
+  height: 50px;
+  background-color: #95ff4e;
+  color: white;
+  font-size: 20px;
+  border-radius: 3px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: none;
+  cursor: pointer;
+}
+#button_scroll_up:hover {
+  background-color: #8bca9a;
+}
+#block_first {
+  background-color: #ca40f8;
+  width:300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#block_second {
+  background-color: #9cf1dd;
+  width:150px;
+  height: 150px;
+}
+#no_scroll {
+  width: 200px;
+  height: 50px;
+  background-color: blue;
+  cursor: pointer;
+}
+#no_scroll:hover {
+  background-color: #4effea;
+}
+#grey_square {
+  width: 100vw;
+  height: 100vw;
+  background-color: #888888;
+  opacity: 0.5;
+  display: none;
+  position: fixed;
+  top: 0;
+}
+#button_go {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+}
+#my_file {
+  display: none;
+}
+#select_file {
+  border-radius: 5px;
+  padding: 20px;
+  cursor: pointer;
+  border: 4px double #4e4eff;
+  color: #0000c8;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #dadadf;
+}
+#select_file:hover {
+  color: #4ed6ff;
+}
+#select_file.dragover {
+  border-color: #4efff0;
+}
+#select_file.drop {
+  border-color: #ff4ed6;
+  color: #ff4ed6;
+}
